@@ -1,0 +1,26 @@
+{
+  "name": "ocs-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "express-cli": "0.0.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.12.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
