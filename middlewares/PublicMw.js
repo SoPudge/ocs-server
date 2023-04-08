@@ -31,9 +31,9 @@ let loggerSid = async function (req, res, next) {
  */
 let accessLog = async function (req, res, next) {
     if (req.method === 'GET') {
-        logger.info(`START HTTP GET to API ${req.path} - From appId ${req.header('appId')} - Source: ${req.ip} - Headers: ${req.header('sessionId')} - Requests: ${JSON.stringify(req.query)}`)
+        logger.info(`START HTTP GET to API ${req.path} - From appId ${req.header('appId')} - Source: ${req.ip} - SessionId: ${req.header('sessionId')} - Requests: ${JSON.stringify(req.query)}`)
     } else {
-        logger.info(`START HTTP POST to API ${req.path} - From appId ${req.header('appId')} - Source: ${req.ip} - Headers: ${req.header('sessionId')} - Requests: ${JSON.stringify(req.body)}`)
+        logger.info(`START HTTP POST to API ${req.path} - From appId ${req.header('appId')} - Source: ${req.ip} - SessionId: ${req.header('sessionId')} - Requests: ${JSON.stringify(req.body)}`)
         // console.log(typeof(req.body))
         // console.log(JSON.parse(req.body))
         // console.log(req.query)
