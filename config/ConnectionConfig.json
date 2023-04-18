@@ -1,0 +1,18 @@
+[
+  {
+    "type": "mongodb",
+    "comment": "app config db connection",
+    "status": "0",
+    "url": "mongodb://root:74107409@127.0.0.1:27017/ftes?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "user": "root",
+    "pass": "74107410"
+  },
+  {
+    "type": "sqlite",
+    "comment": "sqlite for app dictionary",
+    "status": "0",
+    "url": "abc.db",
+    "user": "",
+    "pass": ""
+  }
+]
